@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "creation": "2018-01-23 06:56:37.163859",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tier_name",
+  "min_spent",
+  "column_break_3",
+  "collection_factor"
+ ],
+ "fields": [
+  {
+   "fieldname": "tier_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tier Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "min_spent",
+   "fieldtype": "Currency",
+   "label": "Minimum Total Spent"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "For how much spent = 1 Loyalty Point",
+   "fieldname": "collection_factor",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Collection Factor (=1 LP)",
+   "reqd": 1
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-27 13:10:03.536071",
+ "modified_by": "Administrator",
+ "module": "Accounts",
+ "name": "Loyalty Program Collection",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
